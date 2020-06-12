@@ -63,23 +63,34 @@ li+li {
 
 main {
   display: flex;
+  padding-top: 8rem;
 }
 
 section {
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
 }
 
 article {
   display: flex;
   flex-direction: column;
+  padding-left: 3.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .card-info ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding-left: 0rem;
 }
 
-article img {
-  border: solid;
+.content-image {
+  border: .1rem solid rgb(212, 213, 214);
+  border-radius: 1rem;
+}
+
+.author-image {
+  padding-left: 17rem;
 }
