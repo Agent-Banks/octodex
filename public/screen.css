@@ -66,14 +66,14 @@ main {
 section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-flow: wrap;
 }
 
 article {
   display: flex;
   flex-direction: column;
-  padding-left: 3.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .card-info ul {
@@ -88,6 +88,6 @@ article {
   border: .1rem solid rgb(221, 224, 229);
   border-radius: .7rem;
   background-color: rgb(255, 255, 255);
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 450px;
+  max-height: 450px;
 }
