@@ -67,6 +67,7 @@ main {
 section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-flow: wrap;
 }
 
@@ -88,6 +89,6 @@ article {
   border: 0.1rem solid rgb(221, 224, 229);
   border-radius: 0.7rem;
   background-color: rgb(255, 255, 255);
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 400px;
+  max-height: 400px;
 }
