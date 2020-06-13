@@ -91,4 +91,6 @@ article {
   background-color: rgb(255, 255, 255);
   max-width: 400px;
   max-height: 400px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
