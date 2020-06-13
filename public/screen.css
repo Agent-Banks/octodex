@@ -17,8 +17,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(253, 254, 254, 0.7);
-  border-bottom: .1rem solid rgb(212, 213, 214);
-  box-shadow: 0 .5rem .5rem rgb(239, 240, 242, 0.3);
+  border-bottom: 0.1rem solid rgb(212, 213, 214);
+  box-shadow: 0 0.5rem 0.5rem rgb(239, 240, 242, 0.3);
   position: fixed;
   right: 0;
   left: 0;
@@ -26,7 +26,8 @@ header {
   max-height: 5rem;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   text-decoration: none;
   color: rgb(78, 85, 94);
 }
@@ -35,14 +36,14 @@ ul {
   list-style: none;
 }
 
-li+li {
+li + li {
   margin-left: 1rem;
 }
 
 .octodex-title {
   font-size: 1.2rem;
   margin-left: 0;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .left-nav ul {
@@ -66,7 +67,6 @@ main {
 section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-flow: wrap;
 }
 
@@ -85,8 +85,8 @@ article {
 }
 
 .content-image {
-  border: .1rem solid rgb(221, 224, 229);
-  border-radius: .7rem;
+  border: 0.1rem solid rgb(221, 224, 229);
+  border-radius: 0.7rem;
   background-color: rgb(255, 255, 255);
   max-width: 450px;
   max-height: 450px;
