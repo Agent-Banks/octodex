@@ -1,5 +1,6 @@
 :root {
   font: 14px / 1 sans-serif;
+  color: rgb(92, 98, 104);
 }
 
 html {
@@ -93,4 +94,21 @@ article {
   max-height: 400px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+footer p {
+  padding-bottom: 3rem;
+  padding-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+footer div {
+  border-top: 0.1rem solid rgb(226, 228, 232);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+strong {
+  color: rgb(37, 41, 46);
 }
