@@ -1,4 +1,4 @@
-# SDG Assignment #18 : 05 - 04 - Octodex
+# SDG Assignment #19 : 05 - 04 - Octodex
 
 GitHub has a great mascot called Octocat. Octocat even has its own gallery of variations, created by GitHub itself and fans, called [Octodex](https://octodex.github.com).
 
